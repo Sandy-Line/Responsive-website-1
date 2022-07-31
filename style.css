@@ -80,6 +80,8 @@ h3 {
   margin: 10px;
   text-align: center;
   font-size: 18px;
+  text-align: justify;
+  padding: 0 50px;
 }
 
 .email-link {
@@ -103,4 +105,48 @@ h3 {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 26px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  .navigation-links {
+    margin-top: 20px;
+  }
+
+  .homepage-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .homepage-div p {
+    line-height: normal;
+    padding: 20px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+  .homepage-div h2 {
+    text-align: center;
+  }
+
+  .launch-link {
+    margin: 5px;
+    border-radius: 4px;
+    padding: 20px;
+    text-decoration: none;
+  }
 }
